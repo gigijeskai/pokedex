@@ -1,1 +1,19 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+#top-bar {
+width: 100vw;
+background-color: red;
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+position: sticky;
+top: 0px;
+}
+#bottom-bar {
+width: 100vw;
+background-color: red;
+border-top-left-radius: 0.5em;
+border-top-right-radius: 0.5em;
+position: sticky;
+bottom: 0px;
+}
